@@ -12,14 +12,14 @@
 
 ## 🤔 Why I Built This
 
-I run a Cowrie SSH honeypot on a VPS. Every day, thousands of attackers hit it. I was drowning in logs — 1.2M events, 89K sessions, 34K unique IPs — and I had no way to make sense of the noise.
+I run a Cowrie SSH honeypot on a VPS. Every day, thousands of attackers hit it. I was drowning in logs 1.2M events, 89K sessions, 34K unique IPs and I had no way to make sense of the noise.
 
 Most existing tools just count failed logins or flag known IOCs. I wanted something deeper:
 - **Cluster** attackers by *behavior*, not just IP
 - **Predict** their next command before they type it
 - **Correlate** distributed botnets even when they rotate IPs
 
-This repo is the result. It's not a tutorial project — it's a production pipeline I actually use.
+This repo is the result. It's not a tutorial project it's a production pipeline I actually use.
 
 ---
 
